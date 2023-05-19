@@ -1,0 +1,22 @@
+{
+  "name": "@gilbertosvn-ignite/tokens",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@gilbertosvn-ignite/ts-config": "*",
+    "@gilbertosvn-ignite/eslint-config": "*",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.2"
+  }
+}
